@@ -3,7 +3,7 @@ title: Hwon's Blog
 email: hwkim107@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to my awesome blog.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 google_analytics: #your GA unique id, e.g. UA-xxxxxxxx-x
 disqus_username: Hwon #Your disqus_username to add comments on the post
