@@ -1,10 +1,16 @@
-/*{% if site.ads %}<div class="banner-wrapper">
-  {% if page.url != '/404.html' %}{% include ad.html %}{% endif %}
-</div>{% endif %}*/
-<footer class="site-footer">
-  <div class="wrapper">
-      <div class="copy">
-          {{ site.time | date: '%Y' }} &copy; {{ site.title }}
+<div class="col-xs-12 visible-xs">
+  <div class="row">
+    <div class="col-xs-2"> 
+      <ul class="pager" id="mini-pager-newer">
+      </ul>
+    </div>
+    <div class="col-xs-8">
+      <div class="row" id="footer"> 
       </div>
+    </div>
+    <div class="col-xs-2"> 
+      <ul class="pager" id="mini-pager-older">
+      </ul>
+    </div>
   </div>
-</footer>
+</div>
