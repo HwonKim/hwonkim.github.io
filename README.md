@@ -1,18 +1,30 @@
-![gridster preview](/img/gridster_preview.jpg)
+# Nangka - theme for jekyll
+Just simple theme for your jekyll blog, based on default Jekyll theme.
 
-## Multimedia
-If we had to choose one word to describe Gridster that would be it. Gridster is a theme that focusses on multimedia. It contains different post types to create video posts, audio posts, image post or gallery posts with ease. We created a ton of Variables, that make customization super easy.
+### Feature
 
-This theme is powerful and it comes with a few extras. It also comes with a lot of different layouts for you and in pretty material design.
+- [x] **Google Analytics**
+- [x] **Jekyll Search on Archive Page**
+- [x] **Pagination**
+- [x] **404 Error Page**
+- [x] **SEO** Gems: *[jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap), [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag), [jekyll-feed](https://github.com/jekyll/jekyll-feed)*
+- [x] **Disqus Comments**
+- [x] **Ads**
+- [x] **Share Button**
 
-## Features
-The theme comes with a grunt file, which means that working with it is super easy. We have Tasks that compile, concatenate, minify and even deploy to your site.
+### [View Demo](http://rmsubekti.github.io/nangka)
 
-### Extensive Documentation
-We don't believe in delivering Code without explanation. So we wrote an extensive Documentation for Twister that goes over every single step from installing all of the dependencies to explaining how to customize, create posts and publish. We even tell you how you can host Twister with Plugins on GitHub pages.
+### Run this theme on your local machine
+To serve this jekyll theme make sure your computer meets the [following requirements](https://jekyllrb.com/docs/installation/#requirements), then run this command.
 
-Check the [Docs](http://gridster.digitalmind.ch/documentation/) out.
+```
+git clone git@github.com:rmsubekti/nangka.git
+cd nangka
+bundle install
+bundle exec jekyll s
+```
 
-### Feedback, Wishes, Problems
-If you run into any trouble or have a request please do so by opening up an issue on the theme's GitHub page.
-If you just want to give us a general feedback feel free to [contact us!](http://digitalmind.ch/contact/)
+You can change the site configuration in the [_config.yml](https://github.com/rmsubekti/nangka/blob/master/_config.yml) file.
+
+License : [MIT](https://github.com/rmsubekti/nangka/blob/master/LICENSE.md)
+Feel free to fork, change, modify and re-use it.
