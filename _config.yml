@@ -1,52 +1,51 @@
-# user variables, change this to make custom site.
+# Site settings
+title: Nangka
+email: your@mail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to my awesome blog.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: #your GA unique id, e.g. UA-xxxxxxxx-x
+disqus_username: #Your disqus_username to add comments on the post
 
-name: Lemma
-desc: Yet another simple theme for Jekyll.
-author:
-  name: neizod
-  avatar: //gravatar.com/avatar/daa1cc36ed2ab0d13045d5cd2431cde9?s=320
-  profile: |
-    Just another ordinary grad student in computer engineering.
-    I'm interest in programming language, algorithm, and mathematics.
-
-    I live in Chiang Mai or Bangkok, Thailand.
-    And you may found me around BarCamp event ;D
-  socials:
-    facebook:
-    twitter: //twitter.com/neizod
-    google-plus:
-    github: //github.com/neizod
-    stack-overflow: //stackoverflow.com/users/889578/neizod
-    instagram:
-    pinterest:
-    steam: //steamcommunity.com/id/neizod/
-license: MIT License
+# Optional settings
+github: #your github username
+linkedin: #linkedin username
+twitter:
+  username: #twitter username here
+facebook:
+  app_id: 1234
+  publisher: 1234
+google_plus: #gplus id or username
+ads: true # add your ad code in _includes/ad.html file
 
 
-# theme variables, change this to make site looks best.
-baseurl: /lemma-theme
-paginate: 2
-
-
-# system variables, do not change unless you knew what's it does.
-paginate_path: page/:num
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# Build settings
+markdown: kramdown
 
 sass:
-  sass_dir: _sass
-  style: compressed
+    style: compressed
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jemoji
+
+defaults:
+    - {scope: {type: posts}, values: {layout: post, permalink : '/:year/:title'}}
+
+include:
+  - _pages
+
+exclude:
+  - CNAME
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+paginate: 5
+paginate_path: 'p/:num'
