@@ -26,4 +26,4 @@ New Repsitory를 클릭
 
 ![이미지](/image/setup/jekyll-win-4.png)
 
-아직은 404 Error만을 볼 수 있따. 
+아직은 404 Error만을 볼 수 있다. 
