@@ -1,30 +1,55 @@
-# Nangka - theme for jekyll
-Just simple theme for your jekyll blog, based on default Jekyll theme.
+# jekyll-theme-EasyBook
 
-### Feature
+Another Jekyll Blog Theme "EasyBook"
 
-- [x] **Google Analytics**
-- [x] **Jekyll Search on Archive Page**
-- [x] **Pagination**
-- [x] **404 Error Page**
-- [x] **SEO** Gems: *[jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap), [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag), [jekyll-feed](https://github.com/jekyll/jekyll-feed)*
-- [x] **Disqus Comments**
-- [x] **Ads**
-- [x] **Share Button**
+Start blogging with a simple but powerful theme.
 
-### [View Demo](http://rmsubekti.github.io/nangka)
+## Features
 
-### Run this theme on your local machine
-To serve this jekyll theme make sure your computer meets the [following requirements](https://jekyllrb.com/docs/installation/#requirements), then run this command.
+- Everything Basic Jekyll has.
+- **Pagination** is enabled.
+- **Comments** using Disqus or 多说.
+- **TOC** makes reading easier.
+- **Profile** including your links and avatar on the sidebar.
+- *And more...*
+
+## Install
+
+Read [Quick Guide] to learn how to install and publish.
+
+Read [Welcome to Jekyll and EasyBook][helloPost] and [Jekyll][jekyll] for further information.
+
+**If need help, please:**
+
+ - [**Read Wiki pages**](https://github.com/laobubu/jekyll-theme-EasyBook/wiki)
+ - **Google it**
+ - [**Submit an issue**](https://github.com/laobubu/jekyll-theme-EasyBook/issues/new)
+
+## Donate
+
+Buy me a coffee if you find EasyBook useful for you :smiley:
+
+Visit <http://laobubu.net/donate.html>
+
+## Demo
+
+[laobubu's blog](http://blog.laobubu.net) | [empty site](http://laobubu.github.io/jekyll-theme-EasyBook)
+
+![Homepage](https://ooo.0o0.ooo/2016/02/11/56bc997c65daf.png)
+
+## License
 
 ```
-git clone git@github.com:rmsubekti/nangka.git
-cd nangka
-bundle install
-bundle exec jekyll s
+The MIT License (MIT)
+Copyright (c) 2016 laobubu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-You can change the site configuration in the [_config.yml](https://github.com/rmsubekti/nangka/blob/master/_config.yml) file.
-
-License : [MIT](https://github.com/rmsubekti/nangka/blob/master/LICENSE.md)
-Feel free to fork, change, modify and re-use it.
+[Quick Guide]: https://github.com/laobubu/jekyll-theme-EasyBook/wiki/Quick-Guide
+[helloPost]: http://laobubu.github.io/jekyll-theme-EasyBook/archivers/hello
+[jekyll]: http://jekyllrb.com/

@@ -1,51 +1,37 @@
 # Site settings
-title: Hwon's Blog -test
-email: hwkim107@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Welcome to my awesome blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: hwonkim.github.io"" # the base hostname & protocol for your site
-google_analytics: #your GA unique id, e.g. UA-xxxxxxxx-x
-disqus_username: Hwon #Your disqus_username to add comments on the post
+title: Another Blog
+url: "http://laobubu.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "/jekyll-theme-EasyBook" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+description: >
+  One or more sentences introducing this blog.
 
-# Optional settings
-github: #your github username
-linkedin: #linkedin username
-twitter:
-  username: #twitter username here
-facebook:
-  app_id: 1234
-  publisher: 1234
-google_plus: #gplus id or username
-ads: true # add your ad code in _includes/ad.html file
+# Your information
+email: your_email@example.com
+author: your_name
+avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
+profile: One sentence introducing yourself.
+#twitter_username: twitter_username
+#github_username:  github_username
 
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
 
 # Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
 markdown: kramdown
 
-sass:
-    style: compressed
-
-gems:
-  - jekyll-redirect-from
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jemoji
-
-defaults:
-    - {scope: {type: posts}, values: {layout: post, permalink : '/:year/:title'}}
-
-include:
-  - _pages
-
-exclude:
-  - CNAME
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
-paginate: 5
-paginate_path: 'p/:num'
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
